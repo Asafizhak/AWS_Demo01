@@ -1,6 +1,6 @@
 # s3.tf
 resource "aws_s3_bucket" "my_s3_bucket" {
-  bucket = "my-s3-AWSDemo01-asafiz"  # Change to a unique name
+  bucket = "my-s3-awsd-emo01-asafiz"  # Change to a unique name
 
   #acl    = "private"
   server_side_encryption_configuration {
