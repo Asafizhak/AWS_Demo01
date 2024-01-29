@@ -2,7 +2,7 @@
 resource "aws_s3_bucket" "my_s3_bucket" {
   bucket = "my-unique-s3-bucket-name"  # Change to a unique name
 
-  acl    = "private"
+  #acl    = "private"
   server_side_encryption_configuration {
     rule {
       apply_server_side_encryption_by_default {
