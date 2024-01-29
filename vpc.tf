@@ -1,7 +1,5 @@
 # vpc.tf
-provider "aws" {
-  region = "eu-central-1"  # Change the region as needed
-}
+
 
 resource "aws_vpc" "my_vpc" {
   cidr_block = "10.0.0.0/24"
