@@ -33,16 +33,5 @@ resource "aws_subnet" "subnet_b" {
   }
 }
 
-resource "aws_security_group" "vpc_security_group" {
-  vpc_id = aws_vpc.my_vpc.id
 
-  egress {
-    from_port   = 0
-    to_port     = 0
-    protocol    = "-1"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-
-  // Add additional ingress rules as needed
-}
 
